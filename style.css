@@ -1,0 +1,667 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    background-image: url(bgimage.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .leftbox {
+    width: 50vw;
+    height: 100vh;
+    background-color: rgba(187, 65, 0, 0.838);
+  }
+  
+  .rightbox {
+    width: 50vw;
+    height: 44vh;
+    background-color: rgba(214, 172, 19, 0.94);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  
+  .smallbox {
+    background-color: rgba(68, 230, 176, 0.818);
+    width: 20px;
+    margin-left: 50px;
+    height: 70px;
+    margin-top: 60px;
+  }
+  
+  .text-area {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .text {
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+  
+  .hey {
+    border: 8px solid white;
+    width: 10vw;
+    height: 11vh;
+    margin-top: 15vh;
+  }
+  
+  .hey h2,
+  h6 {
+    margin-left: 25px;
+  }
+  
+  .middle {
+    background-color: rgb(0, 255, 255, 0.797);
+    height: 60vh;
+    width: 100%;
+  }
+  .flex {
+    display: flex;
+    height: 150px;
+    justify-content: baseline;
+  }
+  
+  .para {
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-left: 80px;
+    text-align: end;
+    color: white;
+  }
+  
+  .main1 {
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    padding: 20px 40px;
+    width: fit-content;
+    font-size: 60px;
+  }
+  
+  .main2 {
+    margin-top: 40px;
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    padding: 20px 40px;
+    width: fit-content;
+    font-size: 60px;
+  }
+  .footer {
+    height: 65vh;
+  }
+  
+  .footer-text1 > h1 {
+    color: rgba(255, 111, 0, 0.922);
+    margin-top: 7vh;
+    margin-left: 50px;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+  
+  .footer-text1 > p {
+    margin-left: 50px;
+  }
+  
+  .footer-part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-text2 > h1 {
+    color: rgb(0, 255, 255, 0.797);
+    margin-top: 1vh;
+    margin-left:50px;
+    font-size: 3rem;
+  }
+  
+  .footer-text2 > p {
+    margin-left: 50px;
+    width: 60vw;
+  }
+  
+  .yellow-box {
+    background-color: rgba(255, 187, 0, 0.871);
+    height: 25vh;
+    width: 30vw;
+    margin-top: 17vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .yellow-area {
+    text-align: center;
+    margin-right: 1vw;
+    text-align: end;
+  }
+  
+  .yellow-area p {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  
+  /* /////////////// responsive */
+  
+  @media only screen and (max-width: 1000px) {
+    .hey {
+      border: 6px solid white;
+      width: 15vw;
+      height: 11vh;
+      margin-top: 20vh;
+      text-align: center;
+    }
+    .hey h2,
+    h6 {
+      margin-left: 0px;
+    }
+    .text {
+      font-size: 30px;
+    }
+    .middle {
+      height: 40vw;
+      }
+    .para {
+      margin-right: 20px;
+      margin-top: 90px;
+      margin-left: 80px;
+      text-align: end;
+      color: white;
+      font-size: 17px;
+    }
+    .main1 {
+      background-color: black;
+      text-transform: uppercase;
+      color: white;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      padding: 15px 35px;
+      width: fit-content;
+      font-size: 40px;
+    }
+    .main2 {
+      margin-top: 40px;
+      background-color: black;
+      text-transform: uppercase;
+      color: white;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      height: fit-content;
+      padding: 15px 35px;
+      width: fit-content;
+      font-size: 40px;
+    }
+  
+    .footer {
+      height: 65vh;
+    }
+  
+    .footer-text1 > h1 {
+      color: rgba(255, 111, 0, 0.922);
+      margin-top: 7vh;
+      margin-left: 50px;
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+  
+    .footer-text1 > p {
+      margin-left: 50px;
+    }
+  
+    .footer-part2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .footer-text2 > h1 {
+      color: rgb(0, 255, 255, 0.797);
+      margin-top: 1vh;
+      margin-left: 50px;
+      font-size: 3rem;
+    }
+  
+    .footer-text2 > p {
+      margin-left: 50px;
+      width: 60vw;
+    }
+  
+    .yellow-box {
+      background-color: rgba(255, 187, 0, 0.871);
+      height: 25vh;
+      width: 30vw;
+      margin-top: 17vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .yellow-area {
+      text-align: center;
+      margin-right: 1vw;
+      text-align: end;
+    }
+  
+    .yellow-area p {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+  }
+  
+  @media only screen and (max-width: 780px) {
+    .hey {
+      border: 6px solid white;
+      width: 15vw;
+      height: 10vh;
+      margin-top: 20vh;
+      text-align: center;
+    }
+    .hey h2, h6 {
+      margin-left: 0px;
+    }
+  
+    .para {
+      margin-right: 20px;
+      margin-top: 90px;
+      margin-left: 80px;
+      text-align: end;
+      color: white;
+      font-size: 12px;
+    }
+  
+    .footer-text1 > h1 {
+      color: rgba(255, 111, 0, 0.922);
+      margin-top: 7vh;
+      margin-left: 50px;
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+  
+    .footer-text1 > p {
+      margin-left: 50px;
+    }
+  
+    .footer-part2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .footer-text2 > h1 {
+      color: rgb(0, 255, 255, 0.797);
+      margin-top: 1vh;
+      margin-left: 50px;
+      font-size: 3rem;
+    }
+  
+    .footer-text2 > p {
+      margin-left: 50px;
+      width: 60vw;
+    }
+  
+    .yellow-box {
+      background-color: rgba(255, 187, 0, 0.871);
+      height: 25vh;
+      width: 30vw;
+      margin-top: 17vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .yellow-area {
+      text-align: center;
+      margin-right: 1vw;
+      text-align: end;
+    }
+  
+    .yellow-area p {
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+  }
+  @media only screen and (max-width: 696px) {
+    .hey {
+      border: 6px solid white;
+      width: 15vw;
+      height: 10vh;
+      margin-top: 20vh;
+      text-align: center;
+    }
+    .hey h2, h6 {
+      margin-left: 0px;
+    }
+  
+    .para {
+      margin-right: 20px;
+      margin-top: 90px;
+      margin-left: 70px;
+      text-align: end;
+      color: white;
+      font-size: 10px;
+    }
+  
+    .main1 {
+      background-color: black;
+      text-transform: uppercase;
+      color: white;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      padding: 15px 35px;
+      width: fit-content;
+      font-size: 35px;
+    }
+    .main2 {
+      margin-top: 40px;
+      background-color: black;
+      text-transform: uppercase;
+      color: white;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      height: fit-content;
+      padding: 15px 35px;
+      width: fit-content;
+      font-size: 35px;
+    }
+  
+  
+    .footer-text1 > h1 {
+      color: rgba(255, 111, 0, 0.922);
+      margin-top: 7vh;
+      margin-left: 50px;
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+  
+    .footer-text1 > p {
+      margin-left: 50px;
+    }
+  
+    .footer-part2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .footer-text2 > h1 {
+      color: rgb(0, 255, 255, 0.797);
+      margin-top: 1vh;
+      margin-left: 50px;
+      font-size: 3rem;
+    }
+  
+    .footer-text2 > p {
+      margin-left: 50px;
+      width: 60vw;
+    }
+  
+    .yellow-box {
+      background-color: rgba(255, 187, 0, 0.871);
+      height: 25vh;
+      width: 30vw;
+      margin-top: 15vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .yellow-area {
+      text-align: center;
+      margin-right: 1vw;
+      text-align: end;
+    }
+  
+    .yellow-area p {
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+  }
+  @media only screen and (max-width: 610px) {
+    
+    .text-area {
+      margin-left: 50px;
+      margin-top: 20px;
+      color: white;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+    
+    .text {
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+    
+    .hey {
+      border: 6px solid white;
+      width: 15vw;
+      height: 10vh;
+      margin-top: 20vh;
+      text-align: center;
+    }
+  
+    .middle {
+      background-color: rgb(0, 255, 255, 0.797);
+      height: 35vh;
+      width: 100%;
+    }
+  
+    .para {
+      margin-right: 20px;
+      margin-top: 90px;
+      margin-left: 70px;
+      text-align: end;
+      color: white;
+      font-size: 10px;
+    }
+  
+    .main1 {
+      background-color: black;
+      text-transform: uppercase;
+      color: white;
+      position: relative;
+      top: 40px;
+      left: 50px;
+      padding: 15px 35px;
+      width: fit-content;
+      font-size: 25px;
+    }
+    .main2 {
+      margin-top: 40px;
+      background-color: black;
+      text-transform: uppercase;
+      color: white;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      height: fit-content;
+      padding: 15px 35px;
+      width: fit-content;
+      font-size: 25px;
+    }
+  
+    .footer-text1 > h1 {
+      color: rgba(255, 111, 0, 0.922);
+      margin-top: 7vh;
+      margin-left: 50px;
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+  
+    .footer-text1 > p {
+      margin-left: 50px;
+    }
+  
+    .footer-part2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .footer-text2 > h1 {
+      color: rgb(0, 255, 255, 0.797);
+      margin-top: 1vh;
+      margin-left: 50px;
+      font-size: 3rem;
+    }
+  
+    .footer-text2 > p {
+      margin-left: 50px;
+      width: 60vw;
+      font-size: 15px;
+    }
+  
+    .yellow-box {
+      background-color: rgba(255, 187, 0, 0.871);
+      height: 25vh;
+      width: 30vw;
+      margin-top: 15vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .yellow-area {
+      text-align: center;
+      margin-right: 1vw;
+      text-align: end;
+    }
+  
+    .yellow-area p {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+  }
+  
+  @media only screen and (max-width: 610px){
+  
+    .text-area {
+      margin-left: 50px;
+      margin-top: 20px;
+      color: white;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+    
+    .text {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+    
+    .hey {
+      border: 6px solid white;
+      width: 15vw;
+      height: 8vh;
+      margin-top: 20vh;
+      text-align: center;
+    }
+    .para {
+      margin-right: 20px;
+      margin-top: 80px;
+      margin-left: 65px;
+      text-align: end;
+      color: white;
+      font-size: 8px;
+    }
+  
+    .main1 {
+      background-color: black;
+      text-transform: uppercase;
+      color: white;
+      position: relative;
+      top: 40px;
+      left: 50px;
+      padding: 10px 30px;
+      width: fit-content;
+      font-size: 20px;
+    }
+    .main2 {
+      margin-top: 40px;
+      background-color: black;
+      text-transform: uppercase;
+      color: white;
+      position: relative;
+      top: 40px;
+      left: 50px;
+      height: fit-content;
+      padding: 10px 30px;
+      width: fit-content;
+      font-size: 20px;
+    }
+  
+    
+    .footer-text1 > h1 {
+      color: rgba(255, 111, 0, 0.922);
+      margin-top: 7vh;
+      margin-left: 50px;
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+  
+    .footer-text1 > p {
+      margin-left: 50px;
+      font-size: 14px;
+    }
+  
+    .footer-part2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .footer-text2 > h1 {
+      color: rgb(0, 255, 255, 0.797);
+      margin-top: 1vh;
+      margin-left: 50px;
+      font-size: 2rem;
+    }
+  
+    .footer-text2 > p {
+      margin-left: 50px;
+      width: 60vw;
+      font-size: 14px;
+    }
+  
+    .yellow-box {
+      background-color: rgba(255, 187, 0, 0.871);
+      height: 25vh;
+      width: 30vw;
+      margin-top: 15vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .yellow-area {
+      text-align: center;
+      margin-right: 1vw;
+      text-align: end;
+    }
+  
+    .yellow-area p {
+      font-size: 10px;
+      margin-bottom: 5px;
+    }
+  
+  }

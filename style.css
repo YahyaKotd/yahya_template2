@@ -130,6 +130,7 @@
     margin-top: 1vh;
     margin-left:50px;
     font-size: 3rem;
+      text-transform: uppercase;
   }
   
   .footer-text2 > p {
